@@ -1,0 +1,457 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+*{font-family: 'Montserrat', sans-serif; color: white; font-weight: 200}
+
+body {
+  background: linear-gradient(to right, #141647, #5276D4);
+}
+
+.navbar { background-color: rgba(0, 0, 0, 0.65)}
+
+.navbar-brand {width: 190px}
+
+.mx-32 {
+  margin-left: 32px; 
+  margin-right: 32px}
+
+.quienessomos {font-family: 'Montserrat', sans-serif; font-weight: 500; letter-spacing: 10px; font-size: 62px; margin-bottom: 60px; margin-top: 72px; text-align: center}
+
+.contenedorquienessomos {flex-flow: wrap; display: flex; margin: 72px; margin-top: 245px; margin-bottom: 200px}
+
+.qscolumna1 {width: 50%}
+
+.qscolumna1 p {text-align: justify}
+
+.qscolumna2 {width: 50%; display: flex; flex-flow: wrap; justify-content: right;}
+
+.qscolumna2 img {height: 420px}
+
+.bckimg {height: 700px; background-image: url("images/pochoclos.jpg"); background-size: cover;
+  background-repeat: no-repeat; background-attachment: fixed}
+
+.titulo {font-family: 'Montserrat', sans-serif; font-weight: 500; letter-spacing: 10px; font-size: 62px; margin-bottom: 40px; text-align: center; margin-top: 120px}
+
+.contenedorgaleria {flex-flow:wrap; display: flex; margin: 32px; margin-bottom: 100px; margin-top: 0}
+
+.complejo img {width: 209px}
+
+.complejo figure {padding: 40px; position: relative}
+
+.complejo figure:hover figcaption {display: block}
+
+.complejo figcaption 
+        {display: none;
+        position: absolute; 
+        top: 40px; 
+        left: 40px; 
+        bottom: 40px; 
+        right: 40px;
+        background: rgba(0,0,0,.8);
+        text-align: center;
+        padding: 15px}
+
+.divpsedes {display: flex; flex-flow: wrap; height: 100%; justify-content: center; align-items: center}
+
+.textosede {font-size: 18px; font-weight: 500}
+
+
+
+.mi-carrusel {width: 1000px; height: 600px}
+
+.contenedorslider {flex-flow: wrap; display: flex; align-items: center; justify-content: center; margin: 72px; margin-bottom: 120px}
+
+
+
+footer {background-color: #A8A8A8}
+
+.contenedorfooter {display: flex; flex-flow: wrap; padding: 60px; padding-left: 70px}
+
+footer h4 {color:black; letter-spacing: 6px; font-weight: 400; margin-bottom: 35px}
+
+footer p {color:black}
+
+.columnafooter1 {width: 39%; display: flex; flex-flow: wrap; align-items: center}
+
+.cajafoot1 img {width: 300px; margin-bottom: 90px; display: flex; flex-flow: wrap; align-items: center}
+
+.redes {display: flex;
+flex-flow: wrap;
+justify-content: space-between;
+align-items: center;}
+
+.pseguinos {text-align: center; margin-bottom: 50px}
+
+.columnafooter2 {width: 25%; display: flex; flex-flow: wrap; align-items: center}
+
+.columnafooter3 {width: 36%; display: flex; flex-flow: wrap; align-items: center; justify-content: center}
+
+.fa-brands {color: black; font-size: 20px}
+
+.cajamail {width: 400px; background-color: #3A436D; padding: 30px; border-radius: 40px; margin-left: 70px}
+
+.cajamail h4 {color:white; font-weight: 200; text-align: center; margin-bottom: 40px; margin-top: 18px}
+
+.cajamail p {color:white; text-align: center; margin-bottom: 40px}
+
+.insertarmail {max-width: 350px}
+
+.pcont {margin-bottom: 0}
+
+
+
+
+
+
+
+.elegir {background-image: url("images/elegir.png"); height: 880px; background-size: cover;
+  background-repeat: no-repeat; display: flex; flex-flow: wrap; align-items: center; justify-content: center}
+
+.elegir h1 {text-align: center; font-weight: 500; letter-spacing: 10px; font-size: 80px}
+
+.dropdownelegir {width: 680px; margin-top: 74px}
+
+.textomasinfo p {color: black}
+
+.textomasinfo b {color: black}
+
+
+
+
+
+
+
+.proximosestrenos {margin-top: 200px}
+.contenedorestrenos {display: flex; flex-flow: wrap; align-items: center; justify-content: center; margin-bottom: 100px; margin-top: 76px}
+.divestreno {display: flex; flex-flow: wrap; align-items: center; justify-content: center; background-color: #6974AB; width: 1090px; height: 520px; border-radius: 50px; margin-bottom: 120px}
+.infoestreno {display: flex; flex-flow: column; align-items: center; justify-content: center; margin-right: 70px}
+.infoestreno img {height: 200px; margin-bottom: 20px; border-radius: 15px}
+.infoestreno p {font-size: 12px; text-align: center; margin-bottom: 8px}
+.infoestreno a {margin-top: 20px}
+video {border-radius: 30px}
+
+
+.mi-slider {width: 1050px; height: 550px}
+
+.contenedor {margin-bottom: 150px}
+
+
+.divevento {display: flex; flex-flow: wrap; align-items: center; justify-content: center; background-color: #6974AB; width: 1050px; height: 730px; border-radius: 50px; margin-bottom: 140px}
+.textoevento {font-weight: 400; letter-spacing: 10px; font-size: 32px; margin-bottom: 30px; margin-top: 50px; text-align: center}
+.contenedoreventos {display: flex; flex-flow: column; align-items: center;  height: 2650px}
+
+
+
+
+
+
+.consignaform {margin:20px; font-size: 18px; margin-left: 50px}
+
+
+.formulario {width: 50%;
+	
+	border-radius: 30px; 
+	margin: auto; 
+	padding: 20px; 
+	background-color: #6974AB; 
+	margin-bottom: 180px; 
+	margin-top: 70px}
+
+
+
+form strong {display: inline-block; width: 100%; font-size: 18px; margin-bottom: 20px; text-align: center}
+
+form p {margin: 40px; margin-left: 30px}
+
+.field {width: 100%; height: 25px; border: 0; border-radius: 20px; color: black; padding: 20px}
+.field2 {height: 250px; width: 100%; border: 0; border-radius: 20px; color: black; padding: 20px}
+.boton {text-align: center; margin: auto; margin-bottom: 30px}
+
+
+
+
+
+.titulocarteleraeventos {font-weight: 500; letter-spacing: 10px; font-size: 50px; margin-bottom: 20px; margin-top: 72px; text-align: center}
+.subtitulocartelera {font-weight: 200; letter-spacing: 10px; font-size: 32px; margin-bottom: 100px; margin-top: 0px; text-align: center}
+
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+    margin-bottom: 200px
+}
+.container > div {
+  flex: 0 0 120px;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 5px 15px #1e0e3e;
+  position: relative;
+  overflow: hidden;
+}
+.container > div:nth-of-type(1) {
+  background: url("images/quiridoio.png") no-repeat 50%/cover;
+}
+.container > div:nth-of-type(2) {
+  background: url("images/settembre.png") no-repeat 50%/cover;
+}
+.container > div:nth-of-type(3) {
+  background: url("images/nostalgia.png") no-repeat 50%/cover;
+}
+.container > div:nth-of-type(4) {
+  background: url("images/primaddonna.png") no-repeat 50%/cover;
+}
+.container > div:nth-of-type(5) {
+  background: url("images/spaccaossa.png") no-repeat 50%/cover;
+}
+.container > div .content {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  opacity: 0;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  background: #02022e;
+  background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077031) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: translatey(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+  visibility: hidden;
+}
+.container > div .content span {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.container > div:hover {
+  flex: 0 0 250px;
+  box-shadow: 1px 3px 15px #7645d8;
+  transform: translatey(-30px);
+}
+.container > div:hover .content {
+  opacity: 1;
+  transform: translatey(0%);
+  visibility: visible;
+}
+
+
+
+
+.titulogracias {font-weight: 500; letter-spacing: 10px; font-size: 40px; margin-bottom: 65px; margin-top: 72px; text-align: center}
+.subtitulogracias {font-weight: 200; letter-spacing: 10px; font-size: 20px; margin-bottom: 65px; margin-top: 0px; text-align: center}
+
+
+
+.fondobarbie {height: 800px; background-image: url("images/fondobarbie.png"); background-size: cover;
+  background-repeat: no-repeat; background-attachment: fixed}
+
+
+.ticket {height: 990px; width: 400px;  background-image: url("images/ticket.png"); background-size:contain;
+  background-repeat: no-repeat}
+
+
+.fondocielorojo {height: 800px; background-image: url("images/cielorojofondo.png"); background-size: cover;
+  background-repeat: no-repeat; background-attachment: fixed}
+
+
+
+
+
+
+.container2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+    margin-bottom: 200px
+}
+.container2 > div {
+  flex: 0 0 120px;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 5px 15px #1e0e3e;
+  position: relative;
+  overflow: hidden;
+}
+.container2 > div:nth-of-type(1) {
+  background: url("images/cielorojo.png") no-repeat 50%/cover;
+}
+.container2 > div:nth-of-type(2) {
+  background: url("images/loquenovemos.png") no-repeat 50%/cover;
+}
+.container2 > div:nth-of-type(3) {
+  background: url("images/frankyfivestar.jpg") no-repeat 50%/cover;
+}
+.container2 > div:nth-of-type(4) {
+  background: url("images/theordinaries.avif") no-repeat 50%/cover;
+}
+.container2 > div:nth-of-type(5) {
+  background: url("images/oneinamillion.jpg") no-repeat 50%/cover;
+}
+
+.container2 > div .content2 {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  opacity: 0;
+  flex-direction: column;
+  height: 100%;
+    text-align: center;
+  justify-content: flex-end;
+  background: #02022e;
+  background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077031) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: translatey(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+  visibility: hidden;
+}
+.container2 > div .content2 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.container2 > div:hover {
+  flex: 0 0 250px;
+  box-shadow: 1px 3px 15px #7645d8;
+  transform: translatey(-30px);
+}
+.container2 > div:hover .content2 {
+  opacity: 1;
+  transform: translatey(0%);
+  visibility: visible;
+}
+
+
+
+
+
+
+.container3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 10px;
+    margin-bottom: 200px
+}
+.container3 > div {
+  flex: 0 0 120px;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 5px 15px #1e0e3e;
+  position: relative;
+  overflow: hidden;
+}
+.container3 > div:nth-of-type(1) {
+  background: url("images/simone.png") no-repeat 50%/cover;
+}
+.container3 > div:nth-of-type(2) {
+  background: url("images/eltriunfo.jpg") no-repeat 50%/cover;
+}
+.container3 > div:nth-of-type(3) {
+  background: url("images/vortex.jpg") no-repeat 50%/cover;
+}
+.container3 > div:nth-of-type(4) {
+  background: url("images/mishermanosyyo.jpg") no-repeat 50%/cover;
+}
+.container3 > div:nth-of-type(5) {
+  background: url("images/lanochedelcrimen.jpg") no-repeat 50%/cover;
+}
+.container3 > div .content3 {
+  font-size: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  opacity: 0;
+  flex-direction: column;
+  height: 100%;
+        text-align: center;
+  justify-content: flex-end;
+  background: #02022e;
+  background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077031) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: translatey(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+  visibility: hidden;
+}
+.container3 > div .content3 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.container3 > div:hover {
+  flex: 0 0 250px;
+  box-shadow: 1px 3px 15px #7645d8;
+  transform: translatey(-30px);
+}
+.container3 > div:hover .content3 {
+  opacity: 1;
+  transform: translatey(0%);
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .contenedorquienessomos {flex-flow: column; margin-left: 40px; margin-right: 40px; margin-top: 200px; margin-bottom: 150px}
+    .qscolumna1 {width:100%; margin-bottom: 80px}
+    .quienessomos {font-size: 56px; text-align: center; margin-top: 0}
+    .qscolumna2 {flex-flow: column; width: 100%}
+    .qscolumna2 img {height: auto}
+
+
+    
+    .bckimg {height: 450px}
+    
+    .titulo {font-size: 32px; margin-top: 95px}
+    .contenedorgaleria {margin: 16px; margin-bottom: 80px; margin-top: 0; align-items: center; justify-content: center;}
+    .complejo img {width: 160px}
+    .complejo figure {padding: 10px; position: relative}
+    .complejo figcaption 
+        {top: 10px; 
+        left: 10px; 
+        bottom: 10px; 
+        right: 10px;
+        background: rgba(0,0,0,.8);
+        text-align: center;
+        padding: 15px}
+    .divpsedes p {font-size: 14px}
+    
+    .contenedorslider {margin: 40px; margin-bottom: 100px}
+    .mi-carrusel {width: 350px; height: 210px}
+    
+    footer {display: flex; flex-flow: column;}
+    .contenedorfooter {flex-flow: column}
+    .contenedorfooter {padding: 35px}
+    .columnafooter1 {width: 100%; margin-top: 60px; margin-bottom: 60px}
+    .columnafooter2 {align-items: center; justify-content: center; width: 100%; margin-bottom: 60px}
+    .columnafooter2 h4 {text-align: inherit}
+    .columnafooter3 { width: 100%; margin-bottom: 60px}
+    .cajafoot1 {width:100%; display: flex; flex-flow: column; justify-content: center; align-items: center}
+    .redes {width: 70%}
+    .cajamail {margin: 0}
+
+    
+}
